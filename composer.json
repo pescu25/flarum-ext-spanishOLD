@@ -1,0 +1,25 @@
+{
+    "name": "flarum/flarum-spanish”,
+    "type": "flarum-extension",
+    "description": “Spanish language pack.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.4"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": “Spanish”,
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": “es”,
+            "title": “Spanish”
+        }
+    }
+}
